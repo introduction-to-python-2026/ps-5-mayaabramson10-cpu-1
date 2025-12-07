@@ -1,4 +1,4 @@
-from equation_utils.py # Add the import statements for functions from string_utils.py and equation_utils.py here
+from equation_utils.py import build_equations(reactant_atoms, product_atoms) , my_solve(equations, coefficients), # Add the import statements for functions from string_utils.py and equation_utils.py here
 
 
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
