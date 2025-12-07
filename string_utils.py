@@ -13,7 +13,7 @@ def split_at_first_digit(formula):
     
     return (prefix, number)
 
-def split_before_each_uppercases(formula):
+def split_before_uppercases(formula):
    
     if not formula:
         return []
