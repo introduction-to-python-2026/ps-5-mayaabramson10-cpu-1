@@ -42,7 +42,7 @@ def count_atoms_in_molecule(molecular_formula):
     for atom in split_by_capitals(molecular_formula):
         atom_name, atom_count = split_at_number(atom)
         
-        result[atom_name] = atom_count # Step 2: Update the dictionary with the atom name and count
+        result[atom_name] = result.get(atom_name, 0) + atom_count # Step 2: Update the dictionary with the atom name and count
 
     return result# Step 3: Return the completed dictionary
 
