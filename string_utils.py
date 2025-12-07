@@ -1,6 +1,6 @@
 
 
-def split_at_first_digit(formula):
+def split_at_number(formula):
     i = 0
     while i < len(formula) and not formula[i].isdigit():
       i += 1
